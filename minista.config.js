@@ -7,7 +7,7 @@ export default defineConfig({
   public: "public",
   out: "dist",
   html: {
-    lang: "en"  
+    lang: "en",
   },
   assets: {
     outDir: "assets",
@@ -39,7 +39,7 @@ export default defineConfig({
       outDir: "assets/images",
       outName: "[dirname]",
       svgstoreOptions: {
-        cleanSymbols: ["fill", "stroke", "stroke-linejoin", "stroke-width"],
+        cleanSymbols: ["fill", "stroke"],
       },
     },
     fonts: {
