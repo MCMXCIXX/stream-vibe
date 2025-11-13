@@ -26,6 +26,7 @@ const Footer = () => {
     },
     {
       title: "Shows",
+      linkForTitle: "/shows",
       links: [
         { linkLabel: "Gernes", linkHref: "/gernes" },
         { linkLabel: "Trending", linkHref: "/trending" },
@@ -35,10 +36,12 @@ const Footer = () => {
     },
     {
       title: "Support",
+      linkForTitle: "/support",
       links: [{ linkLabel: "Contact Us", linkHref: "/contacts" }],
     },
     {
       title: "Subscription",
+      linkForTitle: "/subscription",
       links: [
         { linkLabel: "Plans", linkHref: "/plans" },
         { linkLabel: "Features", linkHref: "/features" },

@@ -119,4 +119,8 @@
   &__burger-button {
     position: relative;
   }
+
+  &.is-fixed {
+    position: fixed;
+  }
 }
