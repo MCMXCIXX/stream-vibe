@@ -89,3 +89,7 @@ a {
 :focus-visible {
   @include focus-visible;
 }
+
+:has(.swiper){
+  min-width: 0;
+}

@@ -1,7 +1,7 @@
-import getAttrNameFromSelector from "@/untils/getAttrNameFromSelector.js";
+import getAttrNameFromSelector from "@/utils/getAttrNameFromSelector.js";
 
 const getParams = (element, dataAttrSelector) => {
-    return JSON.parse(element.getAttribute(getAttrNameFromSelector()));
+    return JSON.parse(element.getAttribute(getAttrNameFromSelector(dataAttrSelector)));
 }
 
 export default getParams;

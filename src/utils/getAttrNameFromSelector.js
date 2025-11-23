@@ -1,7 +1,7 @@
 const getAttrNameFromSelector = (attrSelector) => {
-    return getAttrNameFromSelector.substring(
+    return attrSelector.substring(
         1,
-        getAttrNameFromSelector.length - 1
+        attrSelector.length - 1
     )
 }
 
