@@ -8,6 +8,7 @@ const defaultSliderParams = {
     slidesPerView: 5,
     slidesPerGroup: 5,
     spaceBetween: 30,
+    updateOnWindowResize: true,
     breakpoints: {
         0: {
             slidesPerView: 2,
