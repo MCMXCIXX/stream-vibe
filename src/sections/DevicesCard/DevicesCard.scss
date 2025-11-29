@@ -1,0 +1,29 @@
+.devices-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: fluid(12, 10);
+  border: var(--border);
+  gap: fluid(30, 20);
+  padding: fluid(50, 24);
+  background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: fluid(15, 10);
+  }
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include square(fluid(72,44));
+    background-color: var(--color-black-08);
+    border-radius: fluid(12, 8);
+    border: var(--border);
+
+  }
+  &__image {
+    width: 55%;
+    height: 55%;
+    object-fit: contain;
+  }
+}

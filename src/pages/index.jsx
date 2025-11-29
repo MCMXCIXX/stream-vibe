@@ -1,5 +1,6 @@
 import Hero from "@/sections/Hero"
 import Category from "@/sections/Category/Category.jsx";
+import Devices from "@/sections/Devices/index.js";
 
 export const metadata = {
   title: "Home",
@@ -11,6 +12,7 @@ export default function () {
     <>
       <Hero />
         <Category />
+        <Devices />
     </>
   )
 }
